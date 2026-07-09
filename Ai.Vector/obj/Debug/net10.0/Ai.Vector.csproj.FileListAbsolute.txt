@@ -1,0 +1,11 @@
+/run/media/rupayan/Work_Study/Ai/Ai.Vector/bin/Debug/net10.0/Ai.Vector.deps.json
+/run/media/rupayan/Work_Study/Ai/Ai.Vector/bin/Debug/net10.0/Ai.Vector.dll
+/run/media/rupayan/Work_Study/Ai/Ai.Vector/bin/Debug/net10.0/Ai.Vector.pdb
+/run/media/rupayan/Work_Study/Ai/Ai.Vector/obj/Debug/net10.0/Ai.Vector.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/rupayan/Work_Study/Ai/Ai.Vector/obj/Debug/net10.0/Ai.Vector.AssemblyInfoInputs.cache
+/run/media/rupayan/Work_Study/Ai/Ai.Vector/obj/Debug/net10.0/Ai.Vector.AssemblyInfo.cs
+/run/media/rupayan/Work_Study/Ai/Ai.Vector/obj/Debug/net10.0/Ai.Vector.csproj.CoreCompileInputs.cache
+/run/media/rupayan/Work_Study/Ai/Ai.Vector/obj/Debug/net10.0/Ai.Vector.dll
+/run/media/rupayan/Work_Study/Ai/Ai.Vector/obj/Debug/net10.0/refint/Ai.Vector.dll
+/run/media/rupayan/Work_Study/Ai/Ai.Vector/obj/Debug/net10.0/Ai.Vector.pdb
+/run/media/rupayan/Work_Study/Ai/Ai.Vector/obj/Debug/net10.0/ref/Ai.Vector.dll

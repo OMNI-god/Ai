@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Ai.Playground/1.0.0": {
+        "dependencies": {
+          "Ai.Models": "1.0.0",
+          "Ai.Vector": "1.0.0"
+        },
+        "runtime": {
+          "Ai.Playground.dll": {}
+        }
+      },
+      "Ai.Models/1.0.0": {
+        "dependencies": {
+          "Ai.Vector": "1.0.0"
+        },
+        "runtime": {
+          "Ai.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Ai.Vector/1.0.0": {
+        "runtime": {
+          "Ai.Vector.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ai.Playground/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ai.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ai.Vector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

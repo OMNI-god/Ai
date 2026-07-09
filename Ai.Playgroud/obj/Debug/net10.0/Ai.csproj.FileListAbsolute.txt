@@ -1,0 +1,14 @@
+/run/media/rupayan/Work_Study/Ai/Ai/bin/Debug/net10.0/Ai
+/run/media/rupayan/Work_Study/Ai/Ai/bin/Debug/net10.0/Ai.deps.json
+/run/media/rupayan/Work_Study/Ai/Ai/bin/Debug/net10.0/Ai.runtimeconfig.json
+/run/media/rupayan/Work_Study/Ai/Ai/bin/Debug/net10.0/Ai.dll
+/run/media/rupayan/Work_Study/Ai/Ai/bin/Debug/net10.0/Ai.pdb
+/run/media/rupayan/Work_Study/Ai/Ai/obj/Debug/net10.0/Ai.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/rupayan/Work_Study/Ai/Ai/obj/Debug/net10.0/Ai.AssemblyInfoInputs.cache
+/run/media/rupayan/Work_Study/Ai/Ai/obj/Debug/net10.0/Ai.AssemblyInfo.cs
+/run/media/rupayan/Work_Study/Ai/Ai/obj/Debug/net10.0/Ai.csproj.CoreCompileInputs.cache
+/run/media/rupayan/Work_Study/Ai/Ai/obj/Debug/net10.0/Ai.dll
+/run/media/rupayan/Work_Study/Ai/Ai/obj/Debug/net10.0/refint/Ai.dll
+/run/media/rupayan/Work_Study/Ai/Ai/obj/Debug/net10.0/Ai.pdb
+/run/media/rupayan/Work_Study/Ai/Ai/obj/Debug/net10.0/Ai.genruntimeconfig.cache
+/run/media/rupayan/Work_Study/Ai/Ai/obj/Debug/net10.0/ref/Ai.dll
