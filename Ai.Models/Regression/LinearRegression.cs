@@ -2,16 +2,14 @@ using Vec = Ai.Vector.Vector;
 
 namespace Ai.Models.Regression;
 
-public class LinearRegression
+public class LinearRegression : Model
 {
-    public Vec Weights { get; set; }
-    public double Bias { get; set; }
-
-    public double Prediction(Vec ip)
+    public override double Prediction(Vec ip)
     {
-        return ip.Dot(Weights) + Bias;
+        return CalculateLinearOutput(ip);
     }
 
+    // Mean Square Error
     public double Cost(IEnumerable<TrainingSample> trainingSamples)
     {
         double sum = 0;

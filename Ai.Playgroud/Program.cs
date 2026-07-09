@@ -46,5 +46,6 @@ public class Program
         Console.WriteLine($"Cost   : {lr.Cost(samples)}");
 
         Console.WriteLine(lr.Prediction(new Vec(10)));
+
     }
 }
