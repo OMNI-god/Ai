@@ -51,7 +51,7 @@ public class LinearRegression : Model
         return gradient;
     }
 
-    public Vec CalculateWeightGradient(IEnumerable<TrainingSample> samples)
+    public override Vec CalculateWeightGradient(IEnumerable<TrainingSample> samples)
     {
         Vec gradient = new Vec(new double[Weights.Length]);
 
@@ -68,7 +68,7 @@ public class LinearRegression : Model
         return gradient * (2.0 / samples.Count());
     }
 
-    public double CalculateBiasGradient(IEnumerable<TrainingSample> samples)
+    public override double CalculateBiasGradient(IEnumerable<TrainingSample> samples)
     {
         double gradient = 0;
         foreach (var sample in samples)
@@ -79,14 +79,5 @@ public class LinearRegression : Model
             gradient += error;
         }
         return gradient * (2.0 / samples.Count());
-    }
-
-    public void Train(IEnumerable<TrainingSample> samples, int epochs, double learningRate)
-    {
-        for (int i = 0; i < epochs; i++)
-        {
-            Weights = Weights - CalculateWeightGradient(samples) * learningRate;
-            Bias = Bias - learningRate * CalculateBiasGradient(samples);
-        }
     }
 }

@@ -25,8 +25,13 @@ public class Program
             Weights = new Vec(0),
             Bias = 0
         };
+        var log = new LogisticRegression
+        {
+            Weights = new Vec(0, 0),
+            Bias = 0
+        };
 
-        var samples = new List<TrainingSample>
+        var samplesLr = new List<TrainingSample>
         {
             new(new Vec(1), 3),
             new(new Vec(2), 5),
@@ -37,15 +42,39 @@ public class Program
 
         Console.WriteLine($"Weight : {lr.Weights}");
         Console.WriteLine($"Bias   : {lr.Bias}");
-        Console.WriteLine($"Cost   : {lr.Cost(samples)}");
+        Console.WriteLine($"Cost   : {lr.Cost(samplesLr)}");
 
-        lr.Train(samples, 10000, 0.01);
+        lr.Train(samplesLr, 10000, 0.01);
 
         Console.WriteLine($"Weight : {lr.Weights}");
         Console.WriteLine($"Bias   : {lr.Bias}");
-        Console.WriteLine($"Cost   : {lr.Cost(samples)}");
+        Console.WriteLine($"Cost   : {lr.Cost(samplesLr)}");
 
-        Console.WriteLine(lr.Prediction(new Vec(10)));
+        var samplesLog = new List<TrainingSample>
+        {
+            new(new Vec(0,0),0),
+            new(new Vec(0,1),1),
+            new(new Vec(1,0),1),
+            new(new Vec(1,1),1)
+        };
+
+        Console.WriteLine("Before Training");
+
+
+        Console.WriteLine(log.Prediction(new Vec(0, 1)));
+        Console.WriteLine(log.Prediction(new Vec(1, 0)));
+        Console.WriteLine(log.Prediction(new Vec(1, 1)));
+
+        Console.WriteLine(log.Cost(samplesLog));
+        log.Train(samplesLog, 10000, 0.1);
+        Console.WriteLine("After Training");
+
+        Console.WriteLine(log.Prediction(new Vec(0, 0)));
+        Console.WriteLine(log.Prediction(new Vec(0, 1)));
+        Console.WriteLine(log.Prediction(new Vec(1, 0)));
+        Console.WriteLine(log.Prediction(new Vec(1, 1)));
+
+        Console.WriteLine(log.Cost(samplesLog));
 
     }
 }
