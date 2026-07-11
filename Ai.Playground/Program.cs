@@ -25,11 +25,6 @@ public class Program
             Weights = new Vec(0),
             Bias = 0
         };
-        var log = new LogisticRegression
-        {
-            Weights = new Vec(0, 0),
-            Bias = 0
-        };
 
         var samplesLr = new List<TrainingSample>
         {
@@ -50,6 +45,12 @@ public class Program
         Console.WriteLine($"Bias   : {lr.Bias}");
         Console.WriteLine($"Cost   : {lr.Cost(samplesLr)}");
 
+        //Logistis
+        var log = new LogisticRegression
+        {
+            Weights = new Vec(0, 0),
+            Bias = 0
+        };
         var samplesLog = new List<TrainingSample>
         {
             new(new Vec(0,0),0),

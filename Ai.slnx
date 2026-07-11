@@ -1,5 +1,5 @@
 <Solution>
   <Project Path="Ai.Models/Ai.Models.csproj" />
-  <Project Path="Ai.Playgroud/Ai.Playground.csproj" />
+  <Project Path="Ai.Playground/Ai.Playground.csproj" />
   <Project Path="Ai.Vector/Ai.Vector.csproj" />
 </Solution>

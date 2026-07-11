@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/run/media/rupayan/Work_Study/C#/Ai/Ai.Playgroud/Ai.Playground.csproj": {}
+    "/run/media/rupayan/Work_Study/C#/Ai/Ai.Playground/Ai.Playground.csproj": {}
   },
   "projects": {
     "/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/Ai.Models.csproj": {
@@ -342,14 +342,14 @@
         }
       }
     },
-    "/run/media/rupayan/Work_Study/C#/Ai/Ai.Playgroud/Ai.Playground.csproj": {
+    "/run/media/rupayan/Work_Study/C#/Ai/Ai.Playground/Ai.Playground.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Playgroud/Ai.Playground.csproj",
+        "projectUniqueName": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Playground/Ai.Playground.csproj",
         "projectName": "Ai.Playground",
-        "projectPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Playgroud/Ai.Playground.csproj",
+        "projectPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Playground/Ai.Playground.csproj",
         "packagesPath": "/home/rupayan/.nuget/packages/",
-        "outputPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Playgroud/obj/",
+        "outputPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Playground/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/rupayan/.nuget/NuGet/NuGet.Config"
