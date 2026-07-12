@@ -156,5 +156,14 @@ namespace Ai.Vector
 
             return new Vector(res);
         }
+        public Vector Apply(Func<double, double> function)
+        {
+            double[] res = new double[this.Length];
+            for (int i = 0; i < this.Length; i++)
+            {
+                res[i] = function(this[i]);
+            }
+            return new Vector(res);
+        }
     }
 }

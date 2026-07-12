@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="../Ai.Matrix/Ai.Matrix.csproj" />
     <ProjectReference Include="../Ai.Models/Ai.Models.csproj" />
     <ProjectReference Include="../Ai.Vector/Ai.Vector.csproj" />
   </ItemGroup>

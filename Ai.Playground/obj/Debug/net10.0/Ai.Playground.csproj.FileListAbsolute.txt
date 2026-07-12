@@ -60,3 +60,5 @@
 /run/media/rupayan/Work_Study/C#/Ai/Ai.Playground/obj/Debug/net10.0/Ai.Playground.pdb
 /run/media/rupayan/Work_Study/C#/Ai/Ai.Playground/obj/Debug/net10.0/Ai.Playground.genruntimeconfig.cache
 /run/media/rupayan/Work_Study/C#/Ai/Ai.Playground/obj/Debug/net10.0/ref/Ai.Playground.dll
+/run/media/rupayan/Work_Study/C#/Ai/Ai.Playground/bin/Debug/net10.0/Ai.Matrix.dll
+/run/media/rupayan/Work_Study/C#/Ai/Ai.Playground/bin/Debug/net10.0/Ai.Matrix.pdb

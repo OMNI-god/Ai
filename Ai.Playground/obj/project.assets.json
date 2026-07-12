@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net10.0": {
+      "Ai.Matrix/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Ai.Vector": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ai.Matrix.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ai.Matrix.dll": {}
+        }
+      },
       "Ai.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -28,6 +41,11 @@
     }
   },
   "libraries": {
+    "Ai.Matrix/1.0.0": {
+      "type": "project",
+      "path": "../Ai.Matrix/Ai.Matrix.csproj",
+      "msbuildProject": "../Ai.Matrix/Ai.Matrix.csproj"
+    },
     "Ai.Models/1.0.0": {
       "type": "project",
       "path": "../Ai.Models/Ai.Models.csproj",
@@ -41,6 +59,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Ai.Matrix >= 1.0.0",
       "Ai.Models >= 1.0.0",
       "Ai.Vector >= 1.0.0"
     ]
@@ -71,6 +90,9 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
+            "/run/media/rupayan/Work_Study/C#/Ai/Ai.Matrix/Ai.Matrix.csproj": {
+              "projectPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Matrix/Ai.Matrix.csproj"
+            },
             "/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/Ai.Models.csproj": {
               "projectPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/Ai.Models.csproj"
             },
