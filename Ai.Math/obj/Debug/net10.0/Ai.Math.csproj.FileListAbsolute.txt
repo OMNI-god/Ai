@@ -1,0 +1,12 @@
+/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/bin/Debug/net10.0/Ai.Math.deps.json
+/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/bin/Debug/net10.0/Ai.Math.dll
+/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/bin/Debug/net10.0/Ai.Math.pdb
+/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/obj/Debug/net10.0/Ai.Math.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/obj/Debug/net10.0/Ai.Math.AssemblyInfoInputs.cache
+/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/obj/Debug/net10.0/Ai.Math.AssemblyInfo.cs
+/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/obj/Debug/net10.0/Ai.Math.csproj.CoreCompileInputs.cache
+/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/obj/Debug/net10.0/Ai.Math.sourcelink.json
+/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/obj/Debug/net10.0/Ai.Math.dll
+/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/obj/Debug/net10.0/refint/Ai.Math.dll
+/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/obj/Debug/net10.0/Ai.Math.pdb
+/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/obj/Debug/net10.0/ref/Ai.Math.dll

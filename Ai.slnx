@@ -1,7 +1,6 @@
 <Solution>
-  <Project Path="Ai.Matrix/Ai.Matrix.csproj" />
+  <Project Path="Ai.Math/Ai.Math.csproj" />
   <Project Path="Ai.Models/Ai.Models.csproj" />
   <Project Path="Ai.NeuralNetworks/Ai.NeuralNetworks.csproj" />
   <Project Path="Ai.Playground/Ai.Playground.csproj" />
-  <Project Path="Ai.Vector/Ai.Vector.csproj" />
 </Solution>

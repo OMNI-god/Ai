@@ -8,27 +8,26 @@
     ".NETCoreApp,Version=v10.0": {
       "Ai.NeuralNetworks/1.0.0": {
         "dependencies": {
-          "Ai.Matrix": "1.0.0",
-          "Ai.Vector": "1.0.0"
+          "Ai.Models": "1.0.0"
         },
         "runtime": {
           "Ai.NeuralNetworks.dll": {}
         }
       },
-      "Ai.Matrix/1.0.0": {
-        "dependencies": {
-          "Ai.Vector": "1.0.0"
-        },
+      "Ai.Math/1.0.0": {
         "runtime": {
-          "Ai.Matrix.dll": {
+          "Ai.Math.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "Ai.Vector/1.0.0": {
+      "Ai.Models/1.0.0": {
+        "dependencies": {
+          "Ai.Math": "1.0.0"
+        },
         "runtime": {
-          "Ai.Vector.dll": {
+          "Ai.Models.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -42,12 +41,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Ai.Matrix/1.0.0": {
+    "Ai.Math/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Ai.Vector/1.0.0": {
+    "Ai.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

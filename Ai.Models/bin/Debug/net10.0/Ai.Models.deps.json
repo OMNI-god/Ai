@@ -8,15 +8,15 @@
     ".NETCoreApp,Version=v10.0": {
       "Ai.Models/1.0.0": {
         "dependencies": {
-          "Ai.Vector": "1.0.0"
+          "Ai.Math": "1.0.0"
         },
         "runtime": {
           "Ai.Models.dll": {}
         }
       },
-      "Ai.Vector/1.0.0": {
+      "Ai.Math/1.0.0": {
         "runtime": {
-          "Ai.Vector.dll": {
+          "Ai.Math.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -30,7 +30,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Ai.Vector/1.0.0": {
+    "Ai.Math/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

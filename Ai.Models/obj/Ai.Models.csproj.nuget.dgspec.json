@@ -4,14 +4,14 @@
     "/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/Ai.Models.csproj": {}
   },
   "projects": {
-    "/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/Ai.Models.csproj": {
+    "/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/Ai.Math.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/Ai.Models.csproj",
-        "projectName": "Ai.Models",
-        "projectPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/Ai.Models.csproj",
+        "projectUniqueName": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/Ai.Math.csproj",
+        "projectName": "Ai.Math",
+        "projectPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/Ai.Math.csproj",
         "packagesPath": "/home/rupayan/.nuget/packages/",
-        "outputPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/obj/",
+        "outputPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/rupayan/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,7 @@
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
-            "projectReferences": {
-              "/run/media/rupayan/Work_Study/C#/Ai/Ai.Vector/Ai.Vector.csproj": {
-                "projectPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Vector/Ai.Vector.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -342,14 +338,14 @@
         }
       }
     },
-    "/run/media/rupayan/Work_Study/C#/Ai/Ai.Vector/Ai.Vector.csproj": {
+    "/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/Ai.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Vector/Ai.Vector.csproj",
-        "projectName": "Ai.Vector",
-        "projectPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Vector/Ai.Vector.csproj",
+        "projectUniqueName": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/Ai.Models.csproj",
+        "projectName": "Ai.Models",
+        "projectPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/Ai.Models.csproj",
         "packagesPath": "/home/rupayan/.nuget/packages/",
-        "outputPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Vector/obj/",
+        "outputPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/rupayan/.nuget/NuGet/NuGet.Config"
@@ -364,7 +360,11 @@
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/Ai.Math.csproj": {
+                "projectPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Math/Ai.Math.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -16,8 +16,6 @@
 /run/media/rupayan/Work_Study/C#/Ai/Ai.Models/bin/Debug/net10.0/Ai.Models.deps.json
 /run/media/rupayan/Work_Study/C#/Ai/Ai.Models/bin/Debug/net10.0/Ai.Models.dll
 /run/media/rupayan/Work_Study/C#/Ai/Ai.Models/bin/Debug/net10.0/Ai.Models.pdb
-/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/bin/Debug/net10.0/Ai.Vector.dll
-/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/bin/Debug/net10.0/Ai.Vector.pdb
 /run/media/rupayan/Work_Study/C#/Ai/Ai.Models/obj/Debug/net10.0/Ai.Models.csproj.AssemblyReference.cache
 /run/media/rupayan/Work_Study/C#/Ai/Ai.Models/obj/Debug/net10.0/Ai.Models.GeneratedMSBuildEditorConfig.editorconfig
 /run/media/rupayan/Work_Study/C#/Ai/Ai.Models/obj/Debug/net10.0/Ai.Models.AssemblyInfoInputs.cache
@@ -29,3 +27,5 @@
 /run/media/rupayan/Work_Study/C#/Ai/Ai.Models/obj/Debug/net10.0/refint/Ai.Models.dll
 /run/media/rupayan/Work_Study/C#/Ai/Ai.Models/obj/Debug/net10.0/Ai.Models.pdb
 /run/media/rupayan/Work_Study/C#/Ai/Ai.Models/obj/Debug/net10.0/ref/Ai.Models.dll
+/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/bin/Debug/net10.0/Ai.Math.dll
+/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/bin/Debug/net10.0/Ai.Math.pdb

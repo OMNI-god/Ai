@@ -1,4 +1,4 @@
-using Vec = Ai.Vector.Vector;
+using Vec = Ai.Math.Vector.Vector;
 
 namespace Ai.Models.Regression;
 
@@ -18,7 +18,7 @@ public class LinearRegression : Model
         foreach (var sample in trainingSamples)
         {
             var prediction = Prediction(sample.Input);
-            double error = prediction - sample.ExpectedOutput;
+            double error = prediction - sample.ExpectedOutput[0];
             sum += error * error;
             count++;
         }
@@ -58,7 +58,7 @@ public class LinearRegression : Model
         foreach (var sample in samples)
         {
             var prediction = Prediction(sample.Input);
-            var error = prediction - sample.ExpectedOutput;
+            var error = prediction - sample.ExpectedOutput[0];
 
             for (int i = 0; i < Weights.Length; i++)
             {
@@ -74,7 +74,7 @@ public class LinearRegression : Model
         foreach (var sample in samples)
         {
             var prediction = Prediction(sample.Input);
-            var error = prediction - sample.ExpectedOutput;
+            var error = prediction - sample.ExpectedOutput[0];
 
             gradient += error;
         }

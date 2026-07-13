@@ -1,4 +1,4 @@
-using Vec = Ai.Vector.Vector;
+using Vec = Ai.Math.Vector.Vector;
 namespace Ai.Models;
 
 public abstract class Model

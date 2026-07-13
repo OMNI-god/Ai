@@ -2,47 +2,46 @@
   "version": 3,
   "targets": {
     "net10.0": {
-      "Ai.Matrix/1.0.0": {
+      "Ai.Math/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Ai.Math.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ai.Math.dll": {}
+        }
+      },
+      "Ai.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "Ai.Vector": "1.0.0"
+          "Ai.Math": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Ai.Matrix.dll": {}
+          "bin/placeholder/Ai.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Ai.Matrix.dll": {}
-        }
-      },
-      "Ai.Vector/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/Ai.Vector.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Ai.Vector.dll": {}
+          "bin/placeholder/Ai.Models.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Ai.Matrix/1.0.0": {
+    "Ai.Math/1.0.0": {
       "type": "project",
-      "path": "../Ai.Matrix/Ai.Matrix.csproj",
-      "msbuildProject": "../Ai.Matrix/Ai.Matrix.csproj"
+      "path": "../Ai.Math/Ai.Math.csproj",
+      "msbuildProject": "../Ai.Math/Ai.Math.csproj"
     },
-    "Ai.Vector/1.0.0": {
+    "Ai.Models/1.0.0": {
       "type": "project",
-      "path": "../Ai.Vector/Ai.Vector.csproj",
-      "msbuildProject": "../Ai.Vector/Ai.Vector.csproj"
+      "path": "../Ai.Models/Ai.Models.csproj",
+      "msbuildProject": "../Ai.Models/Ai.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Ai.Matrix >= 1.0.0",
-      "Ai.Vector >= 1.0.0"
+      "Ai.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -71,11 +70,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/run/media/rupayan/Work_Study/C#/Ai/Ai.Matrix/Ai.Matrix.csproj": {
-              "projectPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Matrix/Ai.Matrix.csproj"
-            },
-            "/run/media/rupayan/Work_Study/C#/Ai/Ai.Vector/Ai.Vector.csproj": {
-              "projectPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Vector/Ai.Vector.csproj"
+            "/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/Ai.Models.csproj": {
+              "projectPath": "/run/media/rupayan/Work_Study/C#/Ai/Ai.Models/Ai.Models.csproj"
             }
           }
         }

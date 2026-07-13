@@ -1,10 +1,6 @@
 /run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/bin/Debug/net10.0/Ai.NeuralNetworks.deps.json
 /run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/bin/Debug/net10.0/Ai.NeuralNetworks.dll
 /run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/bin/Debug/net10.0/Ai.NeuralNetworks.pdb
-/run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/bin/Debug/net10.0/Ai.Matrix.dll
-/run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/bin/Debug/net10.0/Ai.Vector.dll
-/run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/bin/Debug/net10.0/Ai.Matrix.pdb
-/run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/bin/Debug/net10.0/Ai.Vector.pdb
 /run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/obj/Debug/net10.0/Ai.NeuralNetworks.csproj.AssemblyReference.cache
 /run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/obj/Debug/net10.0/Ai.NeuralNetworks.GeneratedMSBuildEditorConfig.editorconfig
 /run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/obj/Debug/net10.0/Ai.NeuralNetworks.AssemblyInfoInputs.cache
@@ -16,3 +12,7 @@
 /run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/obj/Debug/net10.0/refint/Ai.NeuralNetworks.dll
 /run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/obj/Debug/net10.0/Ai.NeuralNetworks.pdb
 /run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/obj/Debug/net10.0/ref/Ai.NeuralNetworks.dll
+/run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/bin/Debug/net10.0/Ai.Math.dll
+/run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/bin/Debug/net10.0/Ai.Models.dll
+/run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/bin/Debug/net10.0/Ai.Models.pdb
+/run/media/rupayan/Work_Study/C#/Ai/Ai.NeuralNetworks/bin/Debug/net10.0/Ai.Math.pdb

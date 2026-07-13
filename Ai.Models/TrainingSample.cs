@@ -1,4 +1,4 @@
-using Vec = Ai.Vector.Vector;
+using Vec = Ai.Math.Vector.Vector;
 
 namespace Ai.Models;
 
@@ -6,9 +6,9 @@ public class TrainingSample
 {
     public Vec Input { get; }
 
-    public double ExpectedOutput { get; }
+    public Vec ExpectedOutput { get; }
 
-    public TrainingSample(Vec input, double expectedOutput)
+    public TrainingSample(Vec input, Vec expectedOutput)
     {
         Input = input;
         ExpectedOutput = expectedOutput;
