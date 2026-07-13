@@ -93,7 +93,7 @@ public class Program
             new DenseLayer(
                 new Mat(new double[,]
                 {
-            { 0.5 }
+                    { 0.5 }
                 }),
                 new Vec(0),
                 new ReLU()
